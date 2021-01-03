@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 function Questions({ questions }) {
   const [counter, setCounter] = useState(0);
@@ -56,10 +56,12 @@ function Questions({ questions }) {
         </div>
       </div>
       {message && (
-        <div className='text-green-400 font-extrabold text-3xl'>Correct ✓</div>
+        <div className='absolute top-1/3 left-1/3 text-green-400 font-extrabold text-3xl'>
+          Correct ✓
+        </div>
       )}
       {err && (
-        <div className='text-red-500 font-extrabold text-3xl'>
+        <div className='absolute top-1/3 left-1/3 text-red-500 font-extrabold text-3xl'>
           Wrong answer X
         </div>
       )}

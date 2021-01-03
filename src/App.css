@@ -5,7 +5,7 @@ body,
   height: 100%;
 }
 .answer-card {
-  border-radius: 17px;
-  background: #2a4365;
-  box-shadow: 12px 12px 24px #243956, -12px -12px 24px #304d74;
+  border-radius: 50px;
+  background: #1e3a8a;
+  box-shadow: 20px 20px 50px #1a3175, -20px -20px 50px #23439f;
 }
