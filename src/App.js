@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import QuizHome from './components/QuizHome';
+// import QuizHome from './components/QuizHome';
 import Questions from './components/Questions';
 import './App.css';
 

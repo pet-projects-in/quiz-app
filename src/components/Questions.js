@@ -15,7 +15,7 @@ function Questions({ questions }) {
 
   const prevPage = () => {
     resetMessage();
-    if (counter == 0) {
+    if (counter === 0) {
       return;
     }
     setCounter(counter - 1);
