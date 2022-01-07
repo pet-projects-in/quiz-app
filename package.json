@@ -33,7 +33,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react-scripts": "4.0.0",
-    "autoprefixer": "^10.0.2",
+    "autoprefixer": "^10.4.2",
     "postcss": "^8.2.3",
     "tailwindcss": "^2.0.2"
   }
